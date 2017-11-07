@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fechar_conta"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Fechar Conta" />
+        <item
+            android:id="@+id/nav_status_mesa"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Status Mesa" />
+        <item
+            android:id="@+id/nav_editar_mesa"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Editar Mesa" />
+        <item
+            android:id="@+id/nav_pedido"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fazer Pedido" />
+    </group>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Avaliar Atendimento" />
+        </menu>
+    </item>
+
+</menu>
